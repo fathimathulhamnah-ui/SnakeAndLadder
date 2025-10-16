@@ -1,0 +1,32 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#board {
+    border: 2px solid black;
+}
+
+#dice-container {
+    margin-left: 20px;
+}
+
+#dice {
+    width: 100px;
+    height: 100px;
+}
+
+#roll-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
